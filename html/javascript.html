@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>JS</title>
+
+</head>
+
+<body>
+
+
+    <script>
+        console.time("test");
+        function print(){
+        var x = "neel"; //you can declare and assign value to same variable again
+        let y; //you can not declare but assign value to same variable again
+        const pi = 3.14;    //you can not declare or assign value again
+        
+        document.write("hello " + x + y + "<br>"); 
+        document.write(typeof x + "<br>");
+        document.write(typeof y + "<br>");
+        document.write(typeof z + "<br>");
+/*
+        console.log(x + "shah");
+        console.log([12,23,34]);
+        console.table([12,23,34]);
+        console.error("something wrong error");
+        console.warn("this is warning");
+*/
+        //alert("hi");
+
+        //window.print();   pdf,print,etc
+
+        // var a = confirm("do you like this website, ok means true, cancle means false");
+        // if(a){
+        //     alert("Thanks");
+        // }else{
+        //     alert("Sorry");
+        // }
+
+        var a = prompt("what is your name");
+        document.write(a);
+        }
+
+        print();
+        console.timeEnd("test");
+    </script>
+    <h1>as</h1>
+</body>
+
+</html>

@@ -5,11 +5,25 @@ a:hover{
     color: green;
     text-decoration: overline;
     font-size: 50px;
+   
+}
+p{
+    font-family: 'Julee', cursive;
 }
 
+.writing{
+    border: 1px dashed black;
+    width: 600px;
+    writing-mode: vertical-rl;
+    margin: 10px 10px;
+}
 
-
-
+.column{
+    border: 1px solid black;
+    column-count: 5;
+    column-rule: 5px dashed rebeccapurple;
+    column-gap: 100px;
+}
 
 
 
