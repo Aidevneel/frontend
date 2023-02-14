@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>array JS</title>
+</head>
+
+<body>
+    <script>
+
+        var a = [[234, "sadf", 45],
+                 [2334, "sadhnf", 4325],
+                 [24334, "sadfdsf", 4545],
+                 [25634, "sadsdf", 4675]];
+
+        for (var i = 0; i < a.length; i++) {
+            for (var j = 0; j < a[i].length; j++) {
+                document.write(a[i][j] + " ");
+            } document.write("<br>");
+        }
+
+        // map function 
+        var ary = [
+            {fn : "Neel", ln : "Shah"},
+            {fn : "Meet", ln : "Patel"},
+            {fn : "Jeet", ln : "Gupta"}
+        ];
+
+        var b = ary.map(mrg);
+        function mrg(x){
+            return x.fn + " " + x.ln ;
+        }
+        document.write(b);
+
+    </script>
+</body>
+
+</html>

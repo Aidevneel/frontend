@@ -1,0 +1,95 @@
+<html>
+<head><title>array JS</title>
+</head>
+<body>
+
+    <h1> var a = ["c", "a", "d", "b"];</h1>
+    <h1> var b = ["x", "z", "y", "k"];</h1>
+    <h1> var aa = new Array(10, 50, 5, 18, 22, 67);</h1>
+    <script>
+
+        var a = ["c", "a", "d", "b"];
+        var b = ["x", "z", "y", "k"];
+        var aa = new Array(10, 50, 5, 18, 22, 67);
+
+
+        // var c = a.sort();
+        // document.write(c + "<br>");
+
+        // var c = a.reverse();
+        // document.write(c + "<br>"); 
+
+        // a.pop();
+        // document.write(a + "<br>");
+
+        // a.push("n");
+        // document.write(a + "<br>");
+
+        // a.shift();
+        // document.write(a + "<br>");
+
+        // a.unshift("m");
+        // document.write(a + "<br>");
+
+        // var c = a.concat(b);
+        // document.write(c + "<br>");
+
+        // document.write(a + "<br> var a <br>");
+        // a.slice(2,3);
+        // document.write(a + "<br>");
+
+        // a.splice(2,2)
+        // document.write(a + "<br>");
+
+        // var c = a.indexOf("d");
+        // document.write(c + "<br>");
+
+        // var c = a.lastIndexOf("d");
+        // document.write(c + "<br>");
+
+        // var c = a.includes("d");
+        // document.write(c + "<br>");
+
+        // var c = aa.some((age) => age >= 18);
+        // document.write(c + "<br>");
+
+        // var c = aa.every((age) => age >= 18);
+        // document.write(c + "<br>");
+
+        // var c = aa.find((age) => age >= 18);
+        // document.write(c + "<br>");
+
+        // var c = aa.findIndex((age) => age >= 18);
+        // document.write(c + "<br>");
+
+        // var c = aa.filter((age) => age >= 18);
+        // document.write(c + "<br>");
+
+        // var c = aa.toString();
+        // document.write(c + "<br>");
+        // document.write(typeof(c) + "<br>");
+
+        // var c = a.join("-");
+        // document.write(c + "<br>");
+        // document.write(typeof(c));
+
+       // document.write(a.valueof());
+
+        // a.fill("Ram");
+        // document.write(a + "<br>");
+
+        // a.forEach(function(value, index){
+        //     document.write(index + " : " + value + "<br>");
+        // });
+
+        var c = aa.map(mul);
+        function mul(x){
+            return x * 10;
+        }
+        document.write(c);
+        
+
+    </script>
+</body>
+
+</html>

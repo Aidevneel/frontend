@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>object</title>
+</head>
+<body>
+<script>
+
+    var a = {
+        fn : 'neel',
+        ln : 'shah',
+        fullname : function(){
+            return this.fn + " " + this.ln;
+        },
+        living : {'city' : 'vadodara',
+                'num' : 47},
+        country : ['India', 'Nepal']
+    };
+
+    // document.write(a.fn + "<br>");
+    // document.write(a['ln'] + "<br>");
+    // document.write(a.fullname() + "<br>");
+    // document.write(a.living.city + "<br>");
+    // document.write(a.country[1] + "<br>");
+
+    for(var key in a ){
+        document.write(key + " : " + a[key] + "<br>");
+    }
+
+    // method 2
+    // var ab = new Object();
+    // ab.fn = 'neel';
+    // ab.ln = 'shah';
+
+    // document.write(ab.fn + "<br>");
+
+    
+
+
+</script>
+</body>
+</html>

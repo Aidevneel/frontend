@@ -2,25 +2,31 @@
 
 <head>
     <title>array JS</title>
-
 </head>
 <body>
-
 <script>
 
-    var a = new Array(3);
+    // var a = new Array(3);
     
-    for (i=0;i<3;i++){
-        a[i] = prompt("enter name:");
-    }
+    // for (i=0;i<3;i++){
+    //     a[i] = prompt("enter name:");
+    // }
 
-    for (i=0;i<3;i++){
-       document.write(a[i] + " ");
-    }
+    // for (i=0;i<3;i++){
+    //    document.write(a[i] + " ");
+    // }
+
+
+    var b = new Array(12233,234,456,56);
+    
+    // for(i=0;i<b.length;i++){
+    //     document.write(b[i] + "<br> ");
+    // }
+    document.write(b + "<br>");
+    delete b[2];
+    document.write(b + "<br>");
+    document.write(b[2]);
 
 </script>
-
-
-
 </body>
 </html>
