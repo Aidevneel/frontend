@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>array JS</title>
+</head>
+<body onresize="print()">
+    <script>
+       
+       var now = new Date();
+        document.write(now + "<br>");
+       document.write(now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds() + " " + now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear());
+      
+       document.write(now.getMilliseconds() + "<br>");
+       document.write(now.toDateString() + "<br>");
+       document.write(now.getDay() + "<br>");
+
+     //    document.write(now.setDate() + "<br>");
+
+        var now2 = new Date();
+        now2.setDate(25);
+        document.write(now2 + "<br>");
+
+    </script>
+   
+</body>
+</html>
