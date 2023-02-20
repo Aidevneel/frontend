@@ -2,27 +2,60 @@
 <head><title>form</title>   
 </head>
 <body>
-    <form action="# " method="#">
+    <form action="# " method="#" onsubmit="submitfun()">
         <fieldset>
             
-            Username<input id="un" type="text" ><br><br>
-            Password<input id="pw" type="password" ><br><br>
-            
-            Country<select id="list" name="">
+            Username<input id="un" type="text" onfocus="foc(this)" onblur="blurf(this)" oninput="ip(this)"><br><br>
+            Password<input id="pw" type="password" onfocus="foc(this)" onblur="blurf(this)" onchange="chgfun(this)"><br><br>
+            Username<input id="unn" type="text" onselect="selectfun(this)"><br><br>
+            Country<select id="list" name="" onfocus="foc(this)" onblur="blurf(this)" onchange="chgfun(this)">
                 <option value="ne">Nepal</option>
                 <option value="in" selected>India</option>
                 <option value="pk">Pakistan</option>
                 <option value="cn">China</option>
             </select><br><br>
             
-            <!-- <input type="submit" name="submit" value="Save"> -->
+            <input type="submit" >  
            
         </fieldset>
     </form>    
     <div id="column" style="border: 1px solid rebeccapurple"></div>
 
 
-    <script src="js/form-events.js"></script>
+    <script>
+        
+        function foc(elem){
+            elem.style.background="pink";
+
+        }
+
+        function blurf(elem){
+            elem.style.background="";
+
+        }
+
+        function ip(elem){
+            var x = elem.value;
+            document.getElementById("column").innerHTML = x;
+        }
+
+        function chgfun(elem){
+            var x = elem.value;
+            document.getElementById("column").innerHTML = x;
+        }
+
+        function selectfun(elem){
+            var x = elem.value;
+            console.log("you selected something " + x);
+        }
+
+        function submitfun(elem){
+            alert("submitted")
+        }
+
+        
+        
+    </script>
 </body>
 
 </html>
