@@ -1,0 +1,25 @@
+.container{
+    /* background-color: rgb(210, 228, 228); */
+    border: 2px solid rgb(228, 225, 85);
+}
+
+.row{
+    border: 1px solid rgb(211, 142, 52);
+}
+
+.col, .col-lg, .col-md, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    border: 2px solid rgb(77, 109, 255);
+}
+
+#ul li{
+    display: inline-block;
+}
+
+#col{
+    background: aquamarine;
+}
+
+
+
+
+
