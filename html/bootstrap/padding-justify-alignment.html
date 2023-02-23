@@ -1,0 +1,122 @@
+<html>
+<head><title>padding, justify and alignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- for make site responsive -->
+    <link rel="stylesheet" href="bootstrap.css">    <!-- this is bootstrap file -->
+    <link rel="stylesheet" href="mybootstrap.css">    <!-- this is my file, keep your file below bootstrap file for overwrite it's values -->
+    
+</head>
+<body>
+     
+    <div class="container mt-3">
+        <div class="row "><h1 class="text-center">padding</h1></div>
+        <div class="row">   
+            <div class="col-md-4 m-1 ps-0 " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-4 m-1 p-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+            <div class="col-md-3 m-1 pe-5 " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        </div>
+        <div class="row">@copy right 2023</div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row "><h1 class="text-center">Justify: horizontal alignment</h1></div>
+        <div class="row justify-content-center">
+           <div class="col-2">a</div>
+           <div class="col-2">b</div>
+           <div class="col-2">c</div>
+           <div class="col-2">d</div>
+        </div>
+        <div class="row justify-content-end">   
+            <div class="col-2">a</div>
+            <div class="col-2">b</div>
+            <div class="col-2">c</div>
+            <div class="col-2">d</div>
+         </div>
+         <div class="row justify-content-between">   
+            <div class="col-2">a</div>
+            <div class="col-2">b</div>
+            <div class="col-2">c</div>
+            <div class="col-2">d</div>
+         </div>
+         <div class="row justify-content-around">   
+            <div class="col-2">a</div>
+            <div class="col-2">b</div>
+            <div class="col-2">c</div>
+            <div class="col-2">d</div>
+         </div>
+        <div class="row">@copy right 2023</div>
+    </div>
+
+    <br>
+    <div class="container mt-3">
+        <div class="row "><h1 class="text-center">align vertical items</h1></div>
+        <div class="row align-items-end">   
+            <div class="col-md-4  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-4 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+            <div class="col-md-3  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        </div>
+        <div class="row align-items-center">   
+            <div class="col-md-4  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-4 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+            <div class="col-md-3  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        </div>
+        <div class="row align-items-baseline">   
+            <div class="col-md-4  " style="font-size: 11px;" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-4 " style="font-size: 21px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+            <div class="col-md-3  " style="font-size: 31px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecaties.</div>            
+        </div>
+        <div class="row align-items-stretch">   
+            <div class="col-md-4  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-4 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+            <div class="col-md-3  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        </div>
+        <div class="row">@copy right 2023</div>
+    </div>
+
+    <br>
+    <div class="container mt-3">
+        <div class="row "><h1 class="text-center">align vertical content (it only works with height)</h1></div>
+        <div class="row align-content-start" style="height: 400px;">   
+            <div class="col-md-4  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-5 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+            <div class="col-md-3  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-2  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+            <div class="col-md-2  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+       </div>
+       <div class="row align-content-end" style="height: 400px;">   
+        <div class="col-md-4  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        <div class="col-md-5 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+        <div class="col-md-3  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        <div class="col-md-2  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        <div class="col-md-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+        <div class="col-md-2  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+    </div>
+    <div class="row align-content-center" style="height: 400px;">   
+        <div class="col-md-4  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        <div class="col-md-5 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+        <div class="col-md-3  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        <div class="col-md-2  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        <div class="col-md-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+        <div class="col-md-2  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        </div>
+        <div class="row align-content-between" style="height: 400px;">   
+            <div class="col-md-4  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-5 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+            <div class="col-md-3  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-2  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+            <div class="col-md-2  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        </div>
+        <div class="row align-content-around" style="height: 400px;">   
+            <div class="col-md-4  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-5 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+            <div class="col-md-3  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-2  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+            <div class="col-md-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt, a molestiae cupiditate molestias obcaecati autem ut architecto, facere asperiores pariatur maxime sunt adipisci perferendis ducimus id iste quae sit.</div>
+            <div class="col-md-2  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati laudantium, ex beatae magnam odit totam nulla consequatur blanditiis dolores.</div>            
+        </div>
+            <div class="row">@copy right 2023</div>
+        </div>
+</body>
+</html>

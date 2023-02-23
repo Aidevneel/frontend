@@ -4,10 +4,10 @@
 }
 
 .row{
-    border: 1px solid rgb(211, 142, 52);
+    border: 3px solid rgb(211, 142, 52);
 }
 
-.col, .col-lg, .col-md, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+.col, .col-md-3, .col-md-4,.col-md-1,.col-md-2,.col-md-5,.col-md-6,.col-md-7, .col-lg, .col-md, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
     border: 2px solid rgb(77, 109, 255);
 }
 
