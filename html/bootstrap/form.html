@@ -1,21 +1,58 @@
 <html>
-<head><title>table</title>
+
+<head>
+    <title>table</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- for make site responsive -->
-    <link rel="stylesheet" href="bootstrap.css">    <!-- this is bootstrap file -->
-    <link rel="stylesheet" href="mybootstrap.css">    <!-- this is my file, keep your file below bootstrap file for overwrite it's values -->
+    <link rel="stylesheet" href="bootstrap.css"> <!-- this is bootstrap file -->
+    <link rel="stylesheet" href="mybootstrap.css">
+    <!-- this is my file, keep your file below bootstrap file for overwrite it's values -->
 </head>
+
 <body>
-    <div class="container">
+    <p class="text-center mt-3 display-6">Fill Form</p>
+    <div class="container mt-5">
         <div class="row">
-            <div class="col">
-        
-                <div class="form-group">
-                    <label for="">Username</label>
-                    <input type="text" class="formcontrol">
-                </div>
+            <div class="col-md-6">
+
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                
             </div>
         </div>
     </div>
-       
+
+    <!-- <script>
+        // console.log("hi");
+        var a = [1,2,1];
+        var b = [];
+        // console.log(a);
+
+        for(var i = 0 ; i<2; i++){
+        for(var j = 0 ; j<3; j++){
+            b.push(a[j]);
+            
+        }
+    }
+    console.log(b);
+
+    </script> -->
 </body>
+
 </html>
