@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="row">
+            <div id="a1" class="col "><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, illum?</p></div>
+            <div id="a2" class="col "><p>Lorem ipsum dolor sit.</p></div>
+        </div>
+        <div class="row">
+            <div id="a3" class="col "><p>wwwwwwwwwww Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, illum?</p></div>
+            <div id="a4" class="col "><p>wwwwwwwwwwwwwww Lorem ipsum dolor sit.</p></div>
+            <div id="a5" class="col "><p>wwwwwwwwwwwwwww Lorem ipsum dolor sit.</p></div>
+        </div>
+    </div>
+
+
+
+<script>
+    $(document).ready(function(){
+        
+        $('.row').click(function(){
+            $('#a1').css('background-color','tan');
+        });
+        $('.row').dblclick(function(){
+            $('#a2').css('background-color','orange');
+        });
+        $('.row').contextmenu(function(){
+            $('.row').css('border','2px solid red');
+        });
+        $('.row').mouseenter(function(){
+            $('#a1').css('border','2px solid green');
+        });
+        $('.row').mouseleave(function(){
+            $('#a2').css('border','2px solid blue');
+        });
+        // $('body').mouseup(function(){
+        //     $('body').css('background-color','yellow');
+        // });
+
+    });
+
+</script>
+
+<script>
+    $(document).ready(function(){
+        
+        $('body').keypress(function(){
+            $(this).css('background-color','tan');
+        });
+        $('body').keydown(function(){
+            $('#a4').css('background-color','orange');
+        });
+        $('body').keyup(function(){
+            $(this).css('background-color','yellow');
+        });        
+        
+    });
+
+</script>
+
+</body>
+</html>
