@@ -29,15 +29,4 @@ $(document).ready(function(){
         $('<b class="bg-success ">prependTo</b> <br>').prependTo('#parent');
     });
 
-
-    $('#emt').click(function(){
-        $('#parent').empty();
-    });
-
-
-    $('#rm').click(function(){
-        $('#parent').remove();
-    });
-
-
 });
