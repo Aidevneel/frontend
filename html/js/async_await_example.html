@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript async / await</h2>
+
+<h1 id="demo"></h1>
+
+<script>
+
+let promise = new Promise(function (resolve, reject) {
+    setTimeout(function () {
+    resolve('Printed after 4 second')}, 4000); 
+});
+
+async function asyncFunc() {	
+	document.getElementById("demo").innerHTML ="Before await";    
+    	let result =  await promise; 
+      	document.getElementById("demo").innerHTML = result;    
+}
+
+asyncFunc();
+
+</script>
+</body>
+</html>
